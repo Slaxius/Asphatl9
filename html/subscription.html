@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/subscription.css">
+    <title>Asphatl9 - Subscription</title>
+</head>
+<body>
+    <!-- start header section -->
+    <header>
+        <div class="logo">
+            <a href="/html/home.html"><img src="/asset/asphalt9-logo/asphalt9-white.png"></a>
+        </div>
+
+        <div class="page-title">
+            <h1>Subscription</h1>
+        </div>
+        
+        <div class="navbar">
+            <a href="/html/home.html">home</a>
+            <a href="/html/gallery.html">gallery</a>
+            <a href="/html/news.html">news</a>
+            <a href="/html/event.html">event</a>
+            <a href="/html/subscription.html" class="active">subscription</a>
+        </div>
+
+        <div class="menu-bar">
+            <img src="/asset/icon/menu.png" id="menu-icon">
+        </div>
+    </header>
+    <!-- end header section -->
+
+
+    <!-- start body section -->
+    <body>
+        <div class="background">
+            <div class="form-container">
+                <h1>Subscription Form</h1>
+    
+                <div class="form-background">
+                    <form id="registerForm">
+                        <div class="box role">
+                            <div class="content-creator-role">
+                                <input type="radio" name="role" id="content-creator" value="content-creator">
+                                <label for="content-creator">Content Creator</label>
+                            </div>
+
+                            <div class="viewer-role">
+                                <input type="radio" name="role" id="viewer" value="viewer">
+                                <label for="viewer">Viewer</label>
+                            </div>
+                            
+                            <span class="error" id="roleError"></span>
+                        </div>
+                        
+                        <div class="box">
+                            <div class="input-control">
+                                <label for="username">Username: </label>
+                                <input type="text" id="username" name="username">
+                                <span class="error" id="usernameError"></span>
+                            </div>
+                        </div>
+                    
+                        <div class="box">
+                            <div class="input-control">
+                                <label for="email">Email: </label>
+                                <input type="email" id="email" name="email">
+                                <span class="error" id="emailError"></span>
+                            </div>
+                        </div>
+                    
+                        <div class="box">
+                            <div class="input-control">
+                                <label for="date">Date of Birth: </label>
+                                <input type="date" id="date" name="date">
+                                <span class="error" id="dateError"></span>
+                            </div>
+                        </div>
+                    
+                        <div class="box">
+                            <label for="Gender">Gender</label>
+
+                            <select name="Gender" id="gender">
+                                <option selected value="">Select a Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Femael">Female</option>
+                            </select>
+
+                            <span class="error" id="genderError"></span>
+                        </div>
+                    
+                        <div class="box">
+                            <input type="checkbox" name="terms" id="terms">
+                            <label for="terms" class="tnc">By clicking here, I state that I have read and understood the terms and conditions.</label>
+                            <span class="error" id="termsError"></span>
+                        </div>
+
+                        <div class="submit-form">
+                            <button type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close-btn"><img src="/asset/icon/close-black.png"></span>
+                    <p>You have been successfully submitted!</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- end body section -->
+
+
+    <!-- start footer section -->
+    <footer>
+        <div class="container">
+            <div class="top box">
+                <a href="https://www.gameloft.com/" target="_blank"><img src="/asset/icon-footer/gameloft.webp" alt=""></a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="left box">
+                <h2>Useful Link</h2>
+
+                <div class="page-link">
+                    <a href="/html/home.html">home</a>
+                    <a href="/html/gallery.html">gallery</a>
+                    <a href="/html/news.html">news</a>
+                    <a href="/html/event.html">event</a>
+                    <a href="/html/subscription.html">subscription</a>
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Legal</h2>
+
+                <div class="terms">
+                    <a href="https://www.gameloft.com/en/conditions-of-use/" target="_blank">Terms & Conditions</a>
+                    <a href="https://www.gameloft.com/en/information/legal-notices" target="_blank">Legal Notices</a>
+                    <a href="https://www.gameloft.com/en/eula" target="_blank">Eula</a>
+                    <a href="https://www.gameloft.com/en/legal/policy-pre-reg/" target="_blank">Cookie Policy</a>
+                    <a href="https://www.gameloft.com/en/privacy-notice/" target="_blank">Privary Policy</a>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Media</h2>
+
+                <div class="media">
+                    <a href="https://discord.com/invite/asphalt9" target="_blank"><img src="/asset/icon-footer/discord.png"></a>
+                    <a href="https://www.facebook.com/Asphalt9Legends/" target="_blank"><img src="/asset/icon-footer/facebook.png"></a>
+                    <a href="https://www.youtube.com/channel/UCphl7N613vv9pgds_LdvpGg" target="_blank"><img src="/asset/icon-footer/youtube.png"></a>
+                    <a href="https://gmlft.co/A9_IG_Website" target="_blank"><img src="/asset/icon-footer/instagram.png"></a>
+                    <a href="https://www.tiktok.com/@asphalt_9official" target="_blank"><img src="/asset/icon-footer/tiktok.png"></a>
+                    <a href="https://gmlft.co/A9_TW_Website" target="_blank"><img src="/asset/icon-footer/twitter.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="bottom box">
+                <p>
+                    ©2024 Gameloft. All Rights Reserved. Gameloft, the Gameloft logo and Asphatl9 are trademarks of Gameloft in the ID. 
+                    and/or other countries. All manufacturers, cars, names, brands and associated imagery featured in the Asphatl 9: Rejends 
+                    mobile game are trademarks and/or copyrighted materials of their respective owners.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+
+    <script src="/javascript/subscription.js"></script>
+</body>
+</html>
