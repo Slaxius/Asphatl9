@@ -406,9 +406,6 @@ footer .container{
         clip-path: polygon(0 0,100% 0,100% 0,0 0);
         transition: clip-path 0.2s;
     }
-    header .navbar.active{
-        clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
-    }
     header .navbar a{
         font-size: 1.2rem;
         display: block;
